@@ -1,0 +1,8 @@
+_build
+
+syntax: glob
+*.pyc
+*.sw?
+.DS_Store
+
+syntax: regexp
