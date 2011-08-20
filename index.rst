@@ -1,10 +1,17 @@
-.. Python Tutorial documentation master file, created by
-   sphinx-quickstart on Sat Aug 20 18:10:34 2011.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Python Tutorial
+===============
 
-Welcome to Python Tutorial's documentation!
-===========================================
+Overview
+--------
+
+:Course:            Python tutorial, PyCon JP 2011
+:Presenter:         ENDOH takanao
+:Intended audience: Programmers who want a fast introduction to the basics of Python.
+:Tutorial format:   Frequently alternating presentation of concepts and exercise sets.
+                    Each pair of concepts and exercises ranges in length from 5 minutes
+                    on simple topics, to 20 minutes on more involved topics.
+:Requirements:      A laptop computer with Python 2.7 installed.
+:License:            MIT
 
 Contents:
 
@@ -17,4 +24,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
