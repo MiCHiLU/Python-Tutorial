@@ -1,0 +1,16 @@
+>>> type(int)
+>>> callable(int)
+>>> int()
+>>> 0 == int()
+>>> 0 is int()
+>>> type(int)
+>>> type(int())
+>>> int(4.3)
+>>> int('4')
+>>> int('four')
+>>> int('z')
+>>> int('c', 16)
+>>> 1 < 2 and 2 < 3
+>>> 1 < 2 and not (2 < 3)
+>>> 1 < 2 and True
+>>> 1 < 2 and False
