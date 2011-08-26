@@ -17,7 +17,7 @@ See http://docs.python.org/tutorial/classes.html#python-scopes-and-name-spaces
 
 point1.py:
 
-.. literalinclude:: classes_instances/point1.py
+.. literalinclude:: scripts/point1.py
 
 .. include:: classes_instances_a.code
 

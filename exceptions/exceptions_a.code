@@ -7,8 +7,7 @@
 >>> try:
 ...     int('four')
 ... except Exception as e:
-...     print('caught:\n -> {0}\n -> {1}'
-...         .format(e, repr(e))
+...     print('caught:\n -> {0}\n -> {1}'.format(e, repr(e))
 ...     save = e
 
 >>> dir(save)

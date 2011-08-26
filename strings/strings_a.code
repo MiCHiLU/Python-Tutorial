@@ -6,7 +6,7 @@
 >>> 'A quote (") mark'
 >>> 'hello
 >>> """hello
-... there"""
+...  there"""
 
 >>> """today's the "day""""
 >>> '''today's the "day"'''

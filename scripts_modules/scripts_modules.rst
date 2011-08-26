@@ -8,17 +8,17 @@
 
 play1.py:
 
-.. literalinclude:: scripts_modules/play1.py
+.. literalinclude:: scripts/play1.py
 .. include:: scripts_modules_a.code
 
 play2.py:
 
-.. literalinclude:: scripts_modules/play2.py
+.. literalinclude:: scripts/play2.py
 .. include:: scripts_modules_b.code
 
 play3.py:
 
-.. literalinclude:: scripts_modules/play3.py
+.. literalinclude:: scripts/play3.py
 .. include:: scripts_modules_c.code
 
 演習:

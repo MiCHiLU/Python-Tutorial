@@ -4,7 +4,7 @@
 >>> play1.x
 >>> play1.y
 >>> play1.z
->>> play1.z
+>>> play1.z = 99
 >>> play1.z
 >>> dir(play1)
 >>> del play1.z
