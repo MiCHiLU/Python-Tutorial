@@ -20,7 +20,7 @@
 
 .. include:: strings_d.code
 
-Write a predicate (boolean) expression for a sentence, checking that it starts with a capital letter and ends with punctuation.
+真為値は、大文字で始まります。
 
 プリントと文字列フォーマット
 ----------------------------
@@ -34,14 +34,12 @@ Write a predicate (boolean) expression for a sentence, checking that it starts w
 str, repr
 ---------
 
-Note that str is a type, a class, a builtin, not the same as the deprecated standard library module string, and historically a builtin function, so don't be surprised by some obsolete references out there.
-
 .. include:: strings_g.code
 
 演習:
 
 .. include:: strings_h.code
 
-repr adds quotes so it's a legal Python expression (which can be eval'ed)
+reprは、eval実行できるような引用符を追加します。
 
 .. include:: strings_i.code

@@ -7,13 +7,13 @@
 
 .. include:: tuples_lists_b.code
 
-The reverse and sort methods mutate a list and return None.
-The reversed and sorted functions don't mutate a sequence, and they return a new sequence (actually an iterator).
+reverse と sort メソッドは、リストオブジェクトを操作し返り値を返しません。
+逆に、reversed と sorted 関数は、与えられたリストオブジェクトはそのままにし、新しいシーケンス（実際にはジェネレータ）を返り値として返します。
 
 .. include:: tuples_lists_c.code
 
-シーケンスのインデックスとスライス
-----------------------------------
+シーケンスのインデキシングとスライシング
+----------------------------------------
 
 .. include:: tuples_lists_d.code
 
@@ -21,7 +21,7 @@ The reversed and sorted functions don't mutate a sequence, and they return a new
 
 .. include:: tuples_lists_e.code
 
-Note that indexing and slicing work on strings and tuples, too, but remember they are immutable.
+インデキシングとスライシング操作をする場合は、文字列とタプルは不変オブジェクトであることに気をつけましょう。
 
 リスト内包表記
 --------------
@@ -39,8 +39,8 @@ Decorate, Sort, Undecorate (DSU) Idiom
 
 .. include:: tuples_lists_h.code
 
-演習:
-
-Use the DSU idiom to sort months alphabetically.
-Use operator.itemgetter and sort's key parameter to sort months by the number of days in the
-month.
+.. 演習:
+..
+..   Use the DSU idiom to sort months alphabetically.
+..   Use operator.itemgetter and sort's key parameter to sort months by the number of days in the
+..   month.
