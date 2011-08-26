@@ -1,0 +1,53 @@
+>>> print('hello')
+>>> print('there')
+
+>>> i = 0
+>>> while i < 5:
+...     i+=1
+...     print(i)
+
+>>> temp = 15
+>>> if temp <= 0:
+...     print('Freezing')
+... elif temp < 10:
+...     print('Cold')
+... elif temp < 20:
+...     print('Temperate')
+... else:
+...     print('Warm')
+
+>>> for i in [1,2,3]:
+...     print(i)
+...     print(i * 2)
+
+>>> for i in range(3):
+...     for j in range(3):
+...         print((i, j))
+
+>>> from __future__ import print_function
+
+>>> for i in range(3):
+...     for j in range(3):
+...         print((i, j))
+
+>>> for i in range(3):
+...     for j in range(3):
+...         print(i, j, sep=', ', end='')
+...     print()
+
+>>> for i in(1, 2, 3):
+...     print(i)
+
+>>> d = {'zero': 0, 'one': 1, 'two': 2}
+>>> for k, v in d.items():
+...     print('{0} -> {1}'.format(k, v))
+
+>>> for k, v in d.iteritems():
+...     print('{0} -> {1}'.format(k, v))
+
+>>> for t in d.iteritems():
+...     print('{0} -> {1}'.format(k, v))
+
+>>> months = 'jan feb mar apr may'.split()
+>>> for m in reversed(months):
+...     print(m)

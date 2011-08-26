@@ -1,0 +1,21 @@
+>>> 'hello'
+>>> 'hello'.__class__
+>>> type('hello')
+>>> 'hello'.__doc__
+>>> print('hello'.__doc__)
+
+>>> str
+>>> help(str)
+>>> print(str.__doc__)
+>>> str.strip
+>>> help(str.strip)
+>>> print(str.strip.__doc__)
+>>> type(str)
+>>> type(str.strip)
+
+>>> help(dir)
+>>> dir(str)
+>>> dir()
+>>> import __builtin__
+>>> dir()
+>>> dir(__builtin__)

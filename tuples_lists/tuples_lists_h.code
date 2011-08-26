@@ -1,0 +1,15 @@
+>>> months = [
+... ('Jan', 1, 31), ('Feb', 2, 28),
+... ('Mar', 3, 31), ('Apr', 4, 30)]
+
+>>> sorted(months)
+>>> dsu = [(days, (name, order, days))
+...     for (name, order, days) in months]
+
+>>> dsu
+>>> dsu.sort()
+>>> dsu
+>>> [b for (a, b) in dsu]
+
+>>> from operator import itemgetter
+>>> sorted(months, key=itemgetter(0))

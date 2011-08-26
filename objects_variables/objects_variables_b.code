@@ -1,0 +1,37 @@
+>>> id([])
+>>> []
+>>> dir([])
+>>> type([])
+>>> i = []
+>>> j = i
+>>> id(i), id(j)
+>>> id(i) == id(j)
+>>> i is j
+>>> type([]).__bases__
+
+>>> id('xyz')
+>>> id('xyz2')
+>>> type('xyz')
+>>> 'xyz'
+>>> s = 'xyz'
+>>> dir()
+>>> s[1] = 'b'
+>>> id('xyz')
+>>> id(s)
+>>> t = s
+>>> dir()
+>>> id(t)
+>>> id(s) == id(t)
+>>> t = 'xyz'
+>>> id(s) == id(t)
+
+>>> type([])
+>>> class SubList(list):
+...     pass
+
+>>> slist = SubList()
+>>> type(slist)
+>>> slist.__class__
+>>> slist.__class__.__bases__
+>>> slist.__class__.__bases__[0]
+>>> slist.__class__.__bases__[0].__bases__

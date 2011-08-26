@@ -1,0 +1,46 @@
+>>> def iseven(n):
+...     return n % 2 == 0
+
+>>> iseven(1)
+>>> iseven(2)
+
+>>> def add(x, y): return x + y
+
+>>> add(1, 2)
+
+>>> def plural(w):
+...     if w.endswith('y'):
+...         return w[:-1] + 'ies'
+...     return w + 's'
+
+>>> plural('word')
+>>> plural('city')
+>>> plural('fish')
+>>> plural('day')
+
+>>> def fact(n):
+...     """factorial(n), -1 if n < 0"""
+...     if n < 0:
+...         return -1
+...     if n == 0:
+...         return 1
+...     return n * fact(n - 1)
+
+>>> fact.__doc__
+>>> help(fact)
+>>> fact(-1)
+>>> fact(0)
+>>> fact(1)
+>>> fact(2)
+>>> fact(3)
+>>> fact(4)
+>>> fact(10)
+>>> fact(20)
+>>> fact(30)
+>>> fact(100)
+>>> fact(500)
+>>> fact(990)
+>>> fact(1000)
+
+>>> import sys
+>>> sys.getrecursionlimit()

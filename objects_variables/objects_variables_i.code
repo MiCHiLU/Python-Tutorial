@@ -1,0 +1,45 @@
+>>> m = [1, 2, 3]
+>>> reversed(m)
+>>> it = reversed(m)
+>>> type(it)
+>>> dir(it)
+>>> it.next()
+>>> it.next()
+>>> it.next()
+>>> it.next()
+>>> it.next()
+>>> it.next()
+
+>>> for i in m:
+...   print(i)
+
+>>> m.next()
+>>> it = iter(m)
+>>> it.next()
+>>> it.next()
+>>> it.next()
+>>> it.next()
+
+>>> m.__getitem__(0)
+>>> m.__getitem__(1)
+>>> m.__getitem__(2)
+>>> m.__getitem__(3)
+
+>>> it = reversed(m)
+>>> it2 = it.__iter__()
+>>> hasattr(it2, 'next')
+
+>>> m = [2 * i for i in range(3)]
+>>> m
+>>> type(m)
+
+>>> mi = (2 * i for i in range(3))
+>>> mi
+>>> type(mi)
+>>> hasattr(mi, 'next')
+>>> dir(mi)
+>>> help(mi)
+>>> mi.next()
+>>> mi.next()
+>>> mi.next()
+>>> mi.next()

@@ -1,0 +1,10 @@
+>>> '{0!s}'.format('hello')
+>>> '{0!r}'.format('hello')
+
+>>> help(eval)
+>>> str('hello')
+>>> eval(str('hello'))
+>>> hello
+>>> str('hello') == 'hello'
+>>> repr('hello')
+>>> eval(repr('hello'))

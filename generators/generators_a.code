@@ -1,0 +1,43 @@
+>>> def list123():
+...     yield 1
+...     yield 2
+...     yield 3
+
+>>> list123
+>>> list123()
+>>> list(list123())
+
+>>> it = list123()
+>>> it
+>>> type(it)
+>>> it.next()
+>>> it.next()
+>>> it.next()
+>>> it.next()
+
+>>> for i in list123():
+...     print(i)
+
+>>> def list123():
+...     for i in[1, 2, 3]:
+...         yield i
+
+>>> list123()
+>>> list(list123())
+
+>>> def factorials():
+...     n = product = 1
+...     while True:
+...         yield product
+...         product *= n
+...         n += 1
+
+>>> f = factorials()
+>>> f.next()
+>>> f.next()
+>>> f.next()
+>>> f.next()
+>>> f.next()
+>>> f.next()
+>>> f.next()
+>>> f.next()

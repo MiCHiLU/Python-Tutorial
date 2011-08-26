@@ -1,0 +1,39 @@
+>>> int_to_month_list = [
+...     None, 'Jan', 'Feb', 'Mar']
+
+>>> int_to_month_list[2]
+
+>>> int_to_month = {
+...     1: 'Jan', 2: 'Feb', 3: 'Mar'}
+
+>>> int_to_month[2]
+
+>>> month_to_int = {
+...     'Jan': 1, 'Feb': 2, 'Mar': 3 }
+
+>>> month_to_int
+
+>>> month_to_int['Feb']
+>>> month_to_int['Apr']
+>>> month_to_int['Apr'] = 4
+>>> month_to_int['Apr']
+
+>>> month_to_int.has_key('Feb')
+>>> 'Feb' in month_to_int
+>>> del month_to_int['Feb']
+>>> 'Feb' in month_to_int
+
+>>> help(dict.fromkeys)
+>>> list('mississippi')
+>>> d = dict.fromkeys('mississippi', 1)
+>>> d
+>>> d.keys()
+
+>>> import collections
+>>> dd = collections.defaultdict(int)
+>>> int()
+>>> for c in 'mississippi':
+...     dd[c] += 1
+
+>>> dd.items()
+>>> dd

@@ -1,0 +1,32 @@
+>>> m = [1, 2, 3]
+>>> it = iter(m)
+>>> it.next()
+>>> it.next()
+>>> it.next()
+>>> it.next()
+
+>>> for n in m:
+...     print(n)
+
+>>> it = iter(m)
+>>> it2 = iter(it)
+>>> list(it2)
+>>> list(it)
+
+>>> it1 = iter(m)
+>>> it2 = iter(m)
+>>> list(it1)
+>>> list(it2)
+>>> list(it1)
+>>> list(it2)
+
+>>> d = {'one': 1, 'two': 2, 'three': 3}
+>>> it = iter(d)
+>>> list(it)
+
+>>> mi = (2 * i for i in range(3))
+>>> list(mi)
+>>> list(mi)
+
+>>> import itertools
+>>> help(itertools)

@@ -1,0 +1,18 @@
+>>> len('hello')
+>>> min('hello')
+>>> max('hello')
+>>> sorted('hello')
+
+>>> 'hello'.startswith('h')
+>>> 'hello'.startswith('he')
+>>> 'hello'.endswith('lo')
+
+>>> 'hello'.upper()
+>>> 'HELLO'.lower()
+
+>>> ' hello '.strip()
+>>> ' hello '.rstrip()
+>>> ' hello '.lstrip()
+
+>>> 'Jan Feb Mar'.split()
+>>> 'one, two, three'.split(', ')

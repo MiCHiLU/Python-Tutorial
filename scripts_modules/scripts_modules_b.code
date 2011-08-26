@@ -1,0 +1,3 @@
+>>> from play2 import s, t
+>>> dir(play2)
+>>> s, t

@@ -1,0 +1,9 @@
+>>> m
+>>> m.sorted()
+>>> m
+>>> sorted(m)
+>>> m
+>>> m.sort() 334
+>>> m
+>>> m.sort(reverse=True)
+>>> m

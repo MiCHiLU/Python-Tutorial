@@ -1,0 +1,14 @@
+>>> import play0
+>>> import play1
+>>> dir(play1)
+>>> play1.x
+>>> play1.y
+>>> play1.z
+>>> play1.z
+>>> play1.z
+>>> dir(play1)
+>>> del play1.z
+>>> dir(play1)
+
+>>> help(reload)
+>>> reload(play1)

@@ -1,0 +1,14 @@
+>>> for k in reversed(d):
+...     print(k)
+
+>>> for k in reversed(d.iteritems()):
+...     print(k)
+
+>>> for k in reversed(d.items()):
+...     print(k)
+
+>>> range(10)
+>>> help(range)
+>>> range(5, 15)
+>>> range(5, 15, 3)
+>>> range(15, 5, -3)

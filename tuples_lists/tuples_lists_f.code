@@ -1,0 +1,15 @@
+>>> range(8)
+>>> [e for e in range(8)]
+>>> [2 * e for e in range(8)]
+>>> [2 + e for e in range(8)]
+>>> [e for e in range(8)
+...     if e % 2 == 0]
+
+>>> ['{0} * 2 == {1}'.format(e, 2 * e)
+...     for e in range(8)]
+
+>>> ['{0} * 2 == {1}'.format(e, 2 * e)
+...     for e in range(8)
+...         if e % 2 == 0]
+
+>>> [e for e in range(8) if e % 3 == 0]

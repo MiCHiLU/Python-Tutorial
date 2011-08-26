@@ -1,2 +1,9 @@
 .. include::  README.rst
-.. include::  numbers.rst
+.. include::  numbers/numbers.rst
+.. include::  strings/strings.rst
+.. include::  tuples_lists/tuples_lists.rst
+.. include::  objects_variables/objects_variables.rst
+.. include::  scripts_modules/scripts_modules.rst
+.. include::  generators/generators.rst
+.. include::  classes_instances/classes_instances.rst
+.. include::  exceptions/exceptions.rst

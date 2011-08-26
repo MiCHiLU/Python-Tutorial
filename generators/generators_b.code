@@ -1,0 +1,4 @@
+>>> def fact in factorials():
+...     print fact
+...     if len(str(fact)) > 6:
+...         break # Quit the loop

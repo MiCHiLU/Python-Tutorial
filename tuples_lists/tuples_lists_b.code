@@ -1,0 +1,45 @@
+>>> m = [1, 2, 3]
+>>> m
+>>> m += 'd'
+>>> m
+>>> m.append('e')
+>>> m
+>>> m.append(5, 5, 6, 6, 7)
+>>> m.append([5, 5, 6, 6, 7])
+>>> m
+>>> del m[-1]
+>>> m
+>>> m.extend([5, 5, 6, 6, 7])
+>>> m
+>>> 5 in m
+>>> 10 not in m
+>>> not 10 in m
+>>> [5, 6] in m
+>>> m
+>>> m.append([5, 6])
+>>> m
+>>> [5, 6] in m
+
+>>> n = [1, 2, 4]
+>>> m < n
+
+>>> p, q = 1, 2
+>>> p, q
+>>> p, q = q, p
+>>> p, q
+
+>>> x, y, z = (1, 2, 3)
+>>> x, y, z
+>>> x, y, z = 1, 2, 3
+>>> x, y, z
+>>> x, y, z = [1, 2, 3]
+>>> x, y, z
+>>> x, y, z = 'xyz'
+>>> x, y, z
+
+>>> r = 'one two three'.split()
+>>> r
+>>> ' '.join(r)
+>>> ', '.join(r)
+
+>>> m.reverse()

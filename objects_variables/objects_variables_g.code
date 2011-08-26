@@ -1,0 +1,18 @@
+>>> if []:
+...     print('list non-empty')
+
+>>> if [None]:
+...     print('list non-empty')
+
+>>> if '':
+...     print('string non-empty')
+
+>>> if 'False':
+...     print('string non-empty')
+
+>>> d = dict(one=1, two=2, three=3)
+>>> for k in d:
+...     print(k)
+
+>>> for k in sorted(d):
+...     print(k)

@@ -1,0 +1,28 @@
+>>> 3
+>>> print(3)
+>>> print(3, 2)
+>>> print('three', 4)
+>>> 'hello\n'
+>>> print('hello\n')
+>>> print('hello\nthere\n')
+
+>>> print('%d good reasons' % 3)
+>>> print('{0} good reasons'.format(3))
+>>> '{0} good reasons'.format(3)
+
+>>> 'Hello'.format()
+>>> 'Hello {0}'.format()
+>>> 'Hello {0}'.format('Stu')
+>>> '{0} {1}'.format('Hi', 'Stu')
+>>> '{1} {0}'.format('Hi', 'Stu')
+>>> '{0} {1}, {0}!'.format('Hi', 'Stu')
+>>> '{0:d}'.format(99)
+
+>>> '{0:10d}'.format(99)
+>>> '{0:>10d}'.format(99)
+>>> '{0:<10d}'.format(99)
+>>> '{0:^10d}'.format(99)
+
+>>> '{greet} {who}'.format(
+...     greet='Hi',
+...     who='Stu')

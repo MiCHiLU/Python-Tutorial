@@ -1,0 +1,13 @@
+>>> def evens1():
+...     n = 0
+...     result = []
+...     while n < 10:
+...         result.append(n)
+...         n += 2
+...     return result
+
+>>> def evens2():
+...     n = 0
+...     while n < 10:
+...         yield n
+...         n += 2

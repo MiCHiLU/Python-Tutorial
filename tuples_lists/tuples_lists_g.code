@@ -1,0 +1,17 @@
+>>> [(a, b) for a in range(3)
+...     for b in 'Jan Feb Mar'.split()]
+
+>>> help(enumerate)
+>>> [(10 * n, c) for (n, c) in
+...     enumerate(['a', 'b', 'c'])]
+
+>>> help(zip)
+>>> zip(['Jan', 'Feb', 'Mar'],
+...     (1, 2, 3))
+
+>>> zip(['Jan', 'Feb', 'Mar'],
+...     (1, 2, 3, 4))
+
+>>> zip('Jan Feb Mar Apr'.split(),
+...     (1, 2, 3, 4),
+...     (31, 28, 31, 30))

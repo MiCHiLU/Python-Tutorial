@@ -1,0 +1,6 @@
+>>> for num in evens1():
+...     print num
+
+>>> for num in evens2():
+...     print num
+

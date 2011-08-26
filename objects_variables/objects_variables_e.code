@@ -1,0 +1,13 @@
+>>> d = {'Jan': 1, 'Feb': 2, 'Mar': 3}
+>>> d['Feb']
+>>> d['Apr'] = 4
+>>> d.keys()
+>>> d.values()
+>>> d.items()
+>>> help(d.items())
+>>> help(d.items)
+
+>>> dict([(k, v + 1) for v, k in enumerate(
+...     'Jan Feb Mar Apr'.split())])
+
+>>> dict(Jan=1, Feb=2, Mar=3, Apr=4)

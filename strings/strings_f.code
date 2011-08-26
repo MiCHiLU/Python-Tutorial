@@ -1,0 +1,26 @@
+>>> print 3
+>>> from __future__ import print_function
+>>> print 3
+>>> print(3)
+>>> print(3, 4, 5, sep=':', end='$\n')
+
+>>> 'Take {0} or {1}'.format(3, 4)
+>>> 'Take {1} or {0}'.format(3, 4)
+
+>>> v = 1 / 3.0
+>>> '{0:f}'.format(v)
+>>> '{0:4.2f}'.format(v)
+>>> '{0:7.2f}'.format(v)
+>>> '{0:7.4f}'.format(v)
+
+>>> '{0:b}'.format(2)
+>>> '{0:b}'.format(15)
+>>> '{0:b}'.format(16)
+>>> '{0:x}'.format(65535)
+>>> '{0:o}'.format(65535)
+
+>>> '{0:%}'.format(0.35)
+>>> '{0:5.2%}'.format(0.35)
+
+>>> '{0:10.{1}f}'.format(v, 3)
+>>> '{0:10.{1}f}'.format(v, 5)

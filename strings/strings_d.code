@@ -1,0 +1,15 @@
+>>> sorted('hello')
+>>> sorted('hello', reverse=True)
+>>> reversed('hello')
+>>> list(reversed('hello'))
+
+>>> 'hello'.upper()
+>>> 'HELLO'.isupper()
+
+>>> 'hello'.title()
+>>> 'Hello'.istitle()
+
+>>> 'hello world'.title()
+>>> 'hello world'.title().swapcase()
+
+>>> '!' in '.?!'

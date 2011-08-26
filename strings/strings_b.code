@@ -1,0 +1,16 @@
+>>> r'hello'
+>>> r'hello' is 'hello'
+
+>>> r'hello\n'
+>>> r'hello\n' == 'hello\n'
+>>> len(r'hello\n')
+>>> len('hello\n')
+
+>>> 2 * 'hello'
+>>> 2 + 'hello'
+>>> '2' + 'hello'
+>>> 'hello' 'there'
+
+>>> type('hello')
+>>> u'hello'
+>>> type(u'hello')

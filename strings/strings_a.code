@@ -1,0 +1,22 @@
+>>> 'hello'
+>>> "hello"
+>>> 'today's the day'
+>>> 'today\'s the day'
+>>> "today's the day"
+>>> 'A quote (") mark'
+>>> 'hello
+>>> """hello
+... there"""
+
+>>> """today's the "day""""
+>>> '''today's the "day"'''
+>>> 'hello\nthere\n'
+>>> 'h' in 'hello'
+>>> 'h' not in 'hello'
+>>> 'hello'[0]
+>>> s = 'hello'
+>>> s
+>>> s[0] = 'j'
+>>> s
+>>> s = 'j' + 'ello'
+>>> s
