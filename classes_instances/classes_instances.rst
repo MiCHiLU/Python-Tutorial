@@ -1,19 +1,19 @@
 クラスとインスタンス
 --------------------
 
-A namespace is a mapping from names to objects.
-A scope is a section of Python text where a namespace is directly accessible. The namespace search
-order is:
+名前空間とは、Pythonオブジェクトへマッピングされた名前です。
+スコープとは、検索可能な名前空間の範囲です。
+名前空間を検索する順は、:
 
-1. locals, enclosing functions (or module if not in a function)
-2. module, including global
-3. built-ins
+1. ローカル変数、関数定義の中
+2. モジュール、グローバル変数
+3. ビルトイン(built-ins)
 
-All namespaces changes (assignment, import, def, del) happen in the local scope.
-See http://docs.python.org/tutorial/classes.html#python-scopes-and-name-spaces
+名前空間の変更（代入、import、def、del）は、ローカルスコープでおこなわれます。
+参照: http://docs.python.org/tutorial/classes.html#python-scopes-and-name-spaces
 
-- The class statement creates a new namespace and all its name assignments (e.g. function defi- nitions) are bound to the class object.
-- Instances are created by "calling" the class as in ClassName() or ClassName(parameters)
+- クラス文は、新しい名前空間を作成し、名前の割り当てはクラスのオブジェクトへバインドされます
+- インスタンスは、 `ClassName()` または `ClassName(parameters)` を呼び出すことによって作成されます
 
 point1.py:
 
@@ -28,7 +28,7 @@ Write a class Employee that tracks first name, last name, age, and manager.
 Review: Classes
 
 - Class creates a new namespace and a new class object, and wires them for inheritance.
-- Calling the class object creates an instance.
+- クラスオブジェクトを呼び出すと、インスタンスを生成します。
 - If attribute lookup finds a method then a method object is returned. It handles sending self to the function.
-- Classes can be used as simple records.
-- Modules and functions can also have attributes.
+- クラスは、単純なレコードとして使用することができます。
+- モジュールおよび関数も、属性を持つことができます。

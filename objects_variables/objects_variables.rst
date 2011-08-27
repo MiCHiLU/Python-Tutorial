@@ -1,24 +1,24 @@
 オブジェクトと変数
 ------------------
 
-Restart python to empty the local namespace.
+ここで、ローカルの名前空間を空にするため、Pythonを再起動します。
 
 .. include:: objects_variables_a.code
 
-Everything in Python is an object and has:
+Pythonではすべてがオブジェクトであり、次の項目を持っています:
 
-- a single id,
-- a single value,
-- some number of attributes (part of its value),
-- a single type,
-- (zero or) one or more names (in one or more namespaces),
--  and usually (indirectly), one or more base classes.
+- 単一のID（メモリアドレス）
+- 単一の値
+- いくつかの属性
+- 単一の型
+- ひとつ、またはいくつかの名前（ひとつ以上の名前空間）
+- ひとつ以上の基底クラス
 
 .. include:: objects_variables_b.code
 
 演習:
 
-It is suggested you restart python to empty the local namespace.
+ローカルの名前空間を空にするため、Pythonを再起動します。
 
 .. include:: objects_variables_c.code
 
@@ -47,14 +47,16 @@ It is suggested you restart python to empty the local namespace.
 イテレータ式、ジェネレータ式
 ----------------------------
 
-- In a for loop the expression is evaluated to get an iterable, and then iter() is called to produce an iterator.
-- The iterator's next() method is called repeatedly until StopIteration is raised
-- iter(foo)
+- forループでは、反復可能オブジェクトを扱います。
+- `iter()` 関数は、イテレータを生成します。
+- StopIteration例外が送出されるまで、イテレータオブジェクトの `next()` メソッドが繰り返し呼び出されます。
+- iter(foo) は、
 
-    - If foo.__iter__() exists it is called.
-    - Else if foo.__getitem__() exists, calls it starting at zero, handles IndexError by raising StopIteration.
+    - `foo.__iter__()` が存在する場合、それが呼び出されます。
+    - `foo.__getitem__` が存在する場合、ゼロからインデキシングし、
+      `IndexError` 例外を補足して `StopIteration` 例外を送出します。
 
-- Note: iter(callable, sentinel) behaves differently.
+.. - Note: iter(callable, sentinel) behaves differently.
 
 .. include:: objects_variables_i.code
 

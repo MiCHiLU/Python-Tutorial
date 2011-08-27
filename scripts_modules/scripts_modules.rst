@@ -1,10 +1,9 @@
 スクリプト、モジュールを書く
 ----------------------------
 
-- Start with #!/usr/bin/env python
-- Suffix .py (also .pyw on Windows)
-- Python creates .pyc
-- Use lowercase and valid python identifiers
+- `#!/usr/bin/env python` を1行目に書きます
+- 拡張子は、 `.py`
+- 高速に実行するため `.pyc` が生成されます
 
 play1.py:
 
@@ -23,8 +22,7 @@ play3.py:
 
 演習:
 
-Edit your own play.py and load it.
-
+`play.py` を作成して、モジュールをロードし、実行してみましょう。
 
 関数の定義と呼び出し
 --------------------
