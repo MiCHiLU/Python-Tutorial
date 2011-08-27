@@ -6,6 +6,7 @@ file_list = """\
 numbers/numbers_a.code
 strings/strings_a.code
 strings/strings_c.code
+strings/strings_unicode.code
 strings/strings_e.code
 strings/strings_g.code
 tuples_lists/tuples_lists_a.code
