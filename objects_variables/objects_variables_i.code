@@ -1,3 +1,4 @@
+>>> '' ### ブロック、forループ ###
 >>> m = [1, 2, 3]
 >>> reversed(m)
 >>> it = reversed(m)

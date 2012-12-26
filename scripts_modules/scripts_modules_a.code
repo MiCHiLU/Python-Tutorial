@@ -1,3 +1,4 @@
+>>> '' ### スクリプト、モジュールを書く ###
 >>> import play0
 >>> import play1
 >>> dir(play1)

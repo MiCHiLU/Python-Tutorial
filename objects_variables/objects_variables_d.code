@@ -1,3 +1,4 @@
+>>> '' ### 辞書オブジェクト ###
 >>> int_to_month_list = [
 ...     None, 'Jan', 'Feb', 'Mar']
 

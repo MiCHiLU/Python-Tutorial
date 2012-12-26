@@ -1,3 +1,4 @@
+>>> '' ### 文字列 ###
 >>> 'hello'
 >>> "hello"
 >>> 'today's the day'

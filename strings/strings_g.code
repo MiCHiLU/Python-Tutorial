@@ -1,3 +1,4 @@
+>>> '' ### str, repr ###
 >>> 'hello'
 >>> 'hello'.__class__
 >>> type('hello')
